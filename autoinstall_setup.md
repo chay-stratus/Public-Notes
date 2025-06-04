@@ -58,17 +58,17 @@ sudo nvme format -s1 -f /dev/nvme2n1
 
 ### Reburn Carrera Firmware to Golden Versions
 
-The steps taken here largely depend on the state of the firmware on the system being tested. If the firmware is all the current "Golden" versions (*described in [this file](http://firmware.cdx.eng.stratus.com/LabGolden/versions.txt)*) [^2]
+The steps taken here largely depend on the state of the firmware on the system being tested. If the firmware is all the current "Golden" versions [^2]
 
 [^2]: If you are generally unfamiliar with firmware burns, it is advised to receive assistance on the burning process after you have compiled the list of which firmwares need to be reburned
 
 ```
 FW                  Version     
 ------------------- ----------- 
-BIOS                3.35.06     
-BMC                 4.23.03     
+BIOS                4.00.00     
+BMC                 4.24.00     
 SES_IO              3.1.0.24    
-SES_STG             3.1.1.00    
+SES_STG             4.0.0.24    
 MBCPLD              01.04.00    
 IOCPLD              01.03.00    
 STGCPLD             01.03.00    
